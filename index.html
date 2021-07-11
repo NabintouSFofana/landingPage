@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coming Soon</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing Page">
+    <meta name="author" content="NABINTOU S. FOFANA">
+    <link rel="icon" href="images/girl.png" type="favicon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+      <button style="display: none;" id="toggle" class="toggle"></button>
+      <h1>Flower & Sugar</h1>
+      <h2>Coming Soon</h2>
+      <p>We are working on the website right now.
+        <br> 
+        A big surprise is on the way so please Sign-up if you want to be the first!
+      </p>
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <h1>Register to be the first</h1>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your Email"
+                class="form-input"
+              />
+            </div>
+
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      &copy; Made With ❣️ by Nabintou S. Fofana - 2021
+  </footer> 
+    <script src="script.js"></script>
+  </body>
+</html>
